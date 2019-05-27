@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Include external css file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Include Bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>JSON example</title>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-4">JSON</h1>
+        <p class="lead">Sort your posts, check only today's and more!</p>
+        <hr class="my-4">
+        <button class="btn btn-primary btn-lg" onclick="newJSONStructure()">Get data!</button>
+    </div>
+
+    <section id="options" class="text-center"></div>
+        <form> 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="sort" value="upvotes" checked>
+                Upvotes
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="sort" value="score">
+                Score
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="sort" value="num_comments">
+                Number of comments
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="sort" value="created">
+                Date
+            </div>
+        </form>
+
+        <div id="btns">
+        <button type="button" class="btn btn-primary" onclick="sortBy()">Sort</button>
+        <button type="button" class="btn btn-primary" onclick="getTitle()">Title</button>
+        <button type="button" class="btn btn-primary" onclick="only24h()">24h</button>
+        </div>
+    </section>
+
+    <section id="content">
+        <div>
+            <pre id="plainText"></pre>
+        </div>
+    </section>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>

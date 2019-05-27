@@ -1,0 +1,19 @@
+.jumbotron {
+    background-color: #f1f1f1;
+    background-image: url("../img/bg2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#options {
+    margin: 20px 100px;
+    display: none;
+}
+
+#content div pre{
+    padding: 20px;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: auto;
+}
+  
