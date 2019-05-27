@@ -28,7 +28,7 @@ Frontend-JS to prosta strona internetowa stworzona przy użyciu HTML, CSS, Boots
 
 Przyciski:
 #Get data!
-Przycisk 'Get data!' to jedyny przycisk widoczny po uruchomieniu strony. Pozwala on na pobranie i wstępne przetworzenie do nowej struktury JSON danych ze strony ttps://www.reddit.com/r/funny.json. Po naciśnieciu go dane wyświetlają się na ekranie oraz pojawiają się przyciski umożliwiające dalsze przetwarzanie.
+Przycisk 'Get data!' to jedyny przycisk widoczny po uruchomieniu strony. Pozwala on na pobranie i wstępne przetworzenie do nowej struktury JSON danych ze strony www.reddit.com/r/funny.json. Po naciśnieciu go dane wyświetlają się na ekranie oraz pojawiają się przyciski umożliwiające dalsze przetwarzanie.
 
 #SORT 
 Przycisk SORT umożliwia sortowanie danych wg 'upvotes', 'score', 'number of comments' oraz'date'. Użytkownik zaznacza kryterium sortowania wybierając odpowiedni checkbox.
