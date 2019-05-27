@@ -1,7 +1,7 @@
 
 ****************** ENGLISH ******************
 
-JSON is a simple website developed with HTML, CSS, Bootstrap and JavaScript. User interface consist of few buttons which allows to compute JSON data and display them on the screen.
+Frontend-JS is a simple website developed with HTML, CSS, Bootstrap and JavaScript. User interface consist of few buttons which allows to compute JSON data and display them on the screen.
 
 Buttons:
 #Get data!
@@ -18,23 +18,27 @@ After pressing this button post's title which has the highest upvotes to number 
 #24H
 Displays posts from last 24h.
 
+WARNING: Buttons SORT and 24H displays only posts - not full JSON structure.
+
 
 
 ****************** POLISH ******************
 
-JSON to prosta strona internetowa stworzona przy u¿yciu HTML, CSS, Bootstrap oraz JavaScript. Interfejs u¿ytkownika sk³ada siê z kilku przycisków, za pomoc¹ których mo¿liwe jest przetwarzanie danych w formacie JSON i wyœwietlanie rezultatów na ekranie.
+Frontend-JS to prosta strona internetowa stworzona przy uÅ¼yciu HTML, CSS, Bootstrap oraz JavaScript. Interfejs uÅ¼ytkownika skÅ‚ada siÄ™ z kilku przyciskÃ³w, za pomocÄ… ktÃ³rych moÅ¼liwe jest przetwarzanie danych w formacie JSON i wyÅ›wietlanie rezultatÃ³w na ekranie.
 
 Przyciski:
 #Get data!
-Przycisk 'Get data!' to jedyny przycisk widoczny po uruchomieniu strony. Pozwala on na pobranie i wstêpne przetworzenie do nowej struktury JSON danych ze strony ttps://www.reddit.com/r/funny.json. Po naciœnieciu go dane wyœwietlaj¹ siê na ekranie oraz pojawiaj¹ siê przyciski umo¿liwiaj¹ce dalsze przetwarzanie.
+Przycisk 'Get data!' to jedyny przycisk widoczny po uruchomieniu strony. Pozwala on na pobranie i wstÄ™pne przetworzenie do nowej struktury JSON danych ze strony ttps://www.reddit.com/r/funny.json. Po naciÅ›nieciu go dane wyÅ›wietlajÄ… siÄ™ na ekranie oraz pojawiajÄ… siÄ™ przyciski umoÅ¼liwiajÄ…ce dalsze przetwarzanie.
 
 #SORT 
-Przycisk SORT umo¿liwia sortowanie danych wg 'upvotes', 'score', 'number of comments' oraz'date'. U¿ytkownik zaznacza kryterium sortowania wybieraj¹c odpowiedni checkbox.
+Przycisk SORT umoÅ¼liwia sortowanie danych wg 'upvotes', 'score', 'number of comments' oraz'date'. UÅ¼ytkownik zaznacza kryterium sortowania wybierajÄ…c odpowiedni checkbox.
 
-UWAGA: Sortowanie mo¿liwe jest wy³¹cznie dla dancyh wczytanych za pomoc¹ przycisku 'Get data!'.
+UWAGA: Sortowanie moÅ¼liwe jest wyÅ‚Ä…cznie dla dancyh wczytanych za pomocÄ… przycisku 'Get data!'.
 
 #TITLE
-Klikaj¹c przycisk TITLE na ekranie wyœwietli siê tytu³ postu, którego stosunek 'upvotes' do 'number of comments' jest najwiêkszy. W przypadku, gdy istnieje wiêcej ni¿ jeden taki post zostanie wyœwietlony najnowszy z nich.
+KlikajÄ…c przycisk TITLE na ekranie wyÅ›wietli siÄ™ tytuÅ‚ postu, ktÃ³rego stosunek 'upvotes' do 'number of comments' jest najwiÄ™kszy. W przypadku, gdy istnieje wiÄ™cej niÅ¼ jeden taki post zostanie wyÅ›wietlony najnowszy z nich.
 
 #24H
-Przycisk umo¿liwia wyœwietlenie postów z ostatnich 24 godzin.
+Przycisk umoÅ¼liwia wyÅ›wietlenie postÃ³w z ostatnich 24 godzin.
+
+UWAGA: Przyciski SORT oraz 24H wyÅ›wietlajÄ… tylko posty, nie caÅ‚Ä… strukturÄ™ JSON.
